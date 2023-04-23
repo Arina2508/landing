@@ -1,0 +1,236 @@
+body{
+ margin: 0;
+font-family: "NunitoSans-Regular";
+
+}
+section{
+    padding: 20px 0;
+    background: whitesmoke;
+    color: #363636;
+
+}
+
+h1{
+font-family: "Yeseva One";
+font-style: Regular;
+font-size: 40px;
+line-height: 53.13px;
+line-height: 115%;
+align-content: Left;
+vertical-align: Top;
+width: 676.11px;
+height: 105px
+}
+h2{
+font-family: "Nunito Sans";
+font-size: Regular;
+font-size: 22px;
+line-height: 36.01px;
+line-height: 120%;
+align-content: Left;
+vertical-align: Top;
+width: 504px;
+height: 89px
+}
+.container{
+max-width: 1250px;
+margin:0 auto;
+}
+    
+.header{
+background: black;
+color: white;
+}
+
+.header__frame{
+display: flex;
+justify-content: space-between;
+align-items: center; 
+}  
+
+.logo{
+    color: #E3B873;
+}
+
+.header-navigation{
+background: black;
+color: white;
+display: flex;
+justify-content: space-between;
+
+margin:  36px 47px;
+font-family: "Nunito Sans";
+font-size: Regular;
+font-size: 11px;
+text-decoration: none;
+list-style: none;
+
+}
+.header-navigation-item {
+    margin-right: 47px;
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.main__background{
+    background-color: black;
+}
+
+.button__navigation, .section__services-button, .button {
+background: #E3B873;
+color: #FFFFFF;
+font-family: "Nunito Sans";
+box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+border-radius: 2px;
+outline: 0;
+border: 0;
+padding: 13px 33px;
+text-transform: uppercase;
+}
+
+
+.section__services-button2{
+    background:#000000B2;
+
+    color: #FFFFFF;
+    font-family: "Nunito Sans";
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    outline: 0;
+    border: 0;
+    padding: 13px 33px;
+    text-transform: uppercase;  
+}
+.section__services-picture-title{
+    background-image: url(../img/zaz1.png);
+    display: flex;
+    align-items: flex-start;
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 707px;
+    max-width: 100%;
+}
+
+.section__title{
+    display: flex;
+    flex-direction: column;
+   padding: 194px 628px 408px 134px;
+ 
+}
+.title{
+    color: #FFFFFF;
+    display: flex;
+    align-items: flex-start;
+
+}
+.section__complete-project{
+    background-color: #131313;
+    color: #FFFFFF;
+    
+}
+.section__complete-project-menu{
+ 
+color: white;
+display: flex-end;
+justify-content: space-between;
+margin-top: 107px;
+padding:  60px;
+font-family: "Nunito Sans";
+font-size: Regular;
+font-size: 14px;
+text-decoration: none;
+text-align: right;
+text-decoration: none;
+
+}
+.section__complete-project-menu-link{
+    padding: 30px;
+    text-decoration: none;
+    color: #E3B873;
+}
+.section__complete-project-second {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: calc(50%);
+    
+    padding: 0 135px;
+    
+}
+.section__complete-project-about-hotel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.section__vector{
+font-family: Yeseva One;
+font-style: Regular;
+font-size: 20px;
+line-height: 27.72px;
+Line-height: 120%;
+align-items: Center;
+vertical-align: Top;
+display: flex;
+
+}
+
+
+.section__blocks{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px
+}
+.section__blocks-item{
+  flex-basis: calc(33% - 20px);
+  border: 1px solid #E5EAF4;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+}
+
+
+
+
+
+
+
+
+
+.clients-wrapper{
+    display: flex;
+    justify-content: space-between;
+   
+    
+    padding: 0 135px;
+}
+.clients-info{
+    border: 1px solid #E5EAF4;
+  padding: 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  width: 376px;
+  height: 428px;
+
+}
+
+.clients-info__name section-title__subtitle{
+font-family: Yeseva One;
+font-style: Regular;
+font-size: 18px;
+line-height: 22.87px;
+Line-height: 110%;
+
+vertical-align: Top
+}
+
+.clients-info__text{
+font-family: "Nunito Sans";
+font-size: Regular;
+font-size: 13px;
+Line-height: 23.4px;
+line-height: 180%;
+vertical-align: To;
+
+color: #959595
+}
